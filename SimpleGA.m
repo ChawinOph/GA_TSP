@@ -203,7 +203,7 @@ classdef SimpleGA < handle
             
              % Append the first point at the bottom
             traveled_x_mat = [sorted_x_mat; sorted_x_mat(1,:)];
-            traveled_y_mat = [sorted_y_mat; sorted_y_mat(1,:)];
+            traveled_y_mat = [sorted_y_mat; sorted_y_mat(1,:)] ;
             
             % Calculate path length from each column of the sorted order
             % matrix
